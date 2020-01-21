@@ -1,0 +1,150 @@
+h1
+{
+  color: #f5eaea;
+  font-size: 3.5rem;
+  font-family: 'Dancing Script', cursive;
+  line-height: 2;
+}
+h2
+{
+  margin-top: 3%;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: #f5eaea;
+}
+h3
+{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+p{
+  font-size: 1.15rem;
+}
+.c
+{
+  color: #000;
+  text-align: center;
+}
+/* title section */
+#title
+{
+  padding:5% 13%;
+  background-color: #5b5656;
+}
+.rahul-image{
+  transform: rotate(15deg);
+
+}
+.butt
+{
+  margin-left: 160px;
+}
+
+/* Navigation bar */
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand
+{  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-size:1.2rem;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+/* comapny */
+#company{
+  text-align: center;
+  padding:5% 13%;
+}
+.company-heading
+{
+  margin-top: 3%;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 2.5rem;
+}
+/* photos */
+#photos{
+  text-align: center;
+  background-color: #758184;
+  /* padding:5% 13%; */
+}
+.photos-image
+{
+  width:50%;
+  margin: 20px;
+}
+.photo-heading
+{font-size: 3rem;
+  line-height: 1.5;
+
+}
+.carousel-item
+{
+  padding: 3% 12%;
+}
+#skills
+{
+    padding: 5% 12%;
+}
+.features-section
+{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #5d5b6a;
+  margin-bottom: 16px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* cta section */
+#cta{
+  background-color: #5b5656;
+  text-align: center;
+  padding: 7% 15%;
+
+
+}
+.cta-heading
+{
+  color: #f5eaea;
+  font-size: 3.5rem;
+  font-family: 'Dancing Script', cursive;
+  line-height: 2;
+}
+/* footer-section */
+#footer{
+  background-color: #fff;
+  padding: 4% 10%;
+  text-align: center;
+}
+.ico{
+  margin: 2% 1% 2%;
+}
+.p-cta
+{
+  margin-top: 2%;
+}
+/* responsive */
+@media (max-width:1028px) {
+  #title
+  {
+    text-align: center;
+  }
+  .rahul-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .butt
+  {
+    margin: auto auto 30px;
+    text-align: center;
+  }
+}
